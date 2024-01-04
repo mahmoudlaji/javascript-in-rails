@@ -11,6 +11,8 @@
 
       <div id="monuments" data-insert-in-list-target="items">
         <% @monuments.each do |monument| %>
+        <div class="card" style="height:200px; width:400px"><img src="https://source.unsplash.com/random/1000x500" /></div>
+        
           <%= render monument %>
             <p>
               <%= link_to "Show this monument" , monument %>
